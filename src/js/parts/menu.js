@@ -2,7 +2,7 @@ import { isMobile } from '../utils/isMobile.js';
 import { lockPadding, unLockPadding } from '../utils/lockPadding.js';
 
 const menu = document.querySelector('.header');
-const burger = document.querySelector('.header__burger');
+const burger = document.querySelector('.burger');
 const multilanguage = document.querySelector('.multilanguage');
 const menuLinks = document.querySelectorAll('.header nav li a');
 const footerLinks = document.querySelectorAll('.footer nav li a');
@@ -11,11 +11,10 @@ const footerLinks = document.querySelectorAll('.footer nav li a');
 if (burger && window.innerWidth <= 768) {
     burger.addEventListener('click', (е) => {
         burger.classList.toggle('_active');
-        menu.classList.toggle('_open');
-        document.body.classList.toggle('_noscroll');
+        menu.classList.toggle('_active');
         multilanguage.classList.toggle('_active');
 
-        if (menu.classList.contains('_open')) {
+        if (menu.classList.contains('_active')) {
             lockPadding();
         }
         else {
@@ -36,13 +35,12 @@ if (menuLinks.length) {
 
             if (burger && window.innerWidth <= 768) {
                 if (!isMobile.any())
-                    if (menu.classList.contains('_open')) unLockPadding();
+                    if (menu.classList.contains('_active')) unLockPadding();
                     else lockPadding()
 
-                menu.classList.toggle('_open');
+                menu.classList.toggle('_active');
                 burger.classList.toggle('_active');
 
-                document.body.classList.toggle('_noscroll');
             }
         })
     })
