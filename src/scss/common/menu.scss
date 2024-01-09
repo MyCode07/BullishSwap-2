@@ -1,0 +1,40 @@
+.menu {
+    width: 209px;
+    height: auto;
+
+    // .menu__container
+
+    &__container {
+        border-radius: 0 0 0 20px;
+    }
+
+    // .menu__body
+
+    &__body {
+        padding-top: calc(20px + 40 * (100vw - 320px) / 832);
+        padding-right: 16px;
+        padding-bottom: 30px;
+        padding-left: 25px;
+    }
+
+    .multilanguage {
+        margin-bottom: 19px;
+    }
+
+    // .menu__top
+
+    nav {
+        ul {
+            & > :not(:last-child) {
+                margin-bottom: 24px;
+            }
+
+            li {
+                a {
+                    color: #fff;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

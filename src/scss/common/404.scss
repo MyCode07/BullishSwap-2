@@ -1,0 +1,6 @@
+.error-404 {
+    @include adaptive-value("padding-top", 200, 100, 1);
+    @include adaptive-value("padding-bottom", 200, 100, 1);
+    text-align: center;
+    @include adaptive-value("font-size", 80, 50, 1);
+}

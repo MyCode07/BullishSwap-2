@@ -1,0 +1,36 @@
+._ticker {
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    z-index: -1;
+
+    @media (max-width: 992px) {
+        transform: translate(0, -160%);
+    }
+
+    @media (max-width: 375px) {
+        transform: translate(0, -175%);
+    }
+
+    @media (any-hover: hover) {
+        &:hover {
+            .ticker-text {
+                animation-play-state: paused;
+            }
+        }
+    }
+
+    // ._ticker-text
+
+    &-text {
+        font-style: normal;
+        white-space: nowrap;
+        color: #4d3d30;
+        @include adaptive-value("font-size", 128, 30, 1);
+
+        span {
+            color: transparent;
+            -webkit-text-stroke: 1px #4d3d30;
+        }
+    }
+}
