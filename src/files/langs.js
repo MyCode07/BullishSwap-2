@@ -22,12 +22,11 @@ var langsArray = {
     },
     "hl-4": {
         "en": "Roadmap",
-        "ru": "Roadmap",
-        "de": "Roadmap",
-        "es": "Roadmap",
-        "pt": "Roadmap"
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
     },
-
 
     "hero-text": {
         "en": "We offer you a unique opportunity to become part of a large and ambitious family of bulls and take part in the coronation.Bulls occupy a special position in the world of cryptocurrencies and we are ready to confirm this once again in practice...A unique collection. <br> <br> Out of 10,000 thousand NFTs and more than 120 attributes with hidden potential are waiting for you.The owner of the NFT will rightfully be considered. <br><br> One of the founders of the BullishSwap platform and as a thank you, when launching your own coin, all 100% they will be distributed among NFTs holders. The decentralized referral use of NFT in combination with the BullishSwap exchange is a completely new way of looking at  decentralization.",
@@ -36,7 +35,6 @@ var langsArray = {
         "es": "Le presentamos una de las primeras colecciones de toros NFT en la cadena de bloques mínima. <br> Una colección única de 10,000 mil NFT y más de 120 atributos con valor oculto. <br> Un factor importante es la quema de mínimos en la región del 10% del costo de NFT. <br> El propietario de NFT se considerará legítimamente uno de los fundadores del desarrollo del ecosistema mínimo y debería estar orgulloso de ello. El uso de referencia descentralizado de NFT en combinación con el intercambio de BullishSwap es una mirada completamente nueva a la descentralización.",
         "pt": "Apresentamos a você uma das primeiras coleções de touros da NFT no mínimo blockchain. <br> Uma coleção única de 10.000 mil NFT e mais de 120 atributos com valor oculto. <br> Um fator importante é a queima de mínimos na região de 10% do custo da NFT. <br> O proprietário da NFT será considerado um dos fundadores do desenvolvimento do ecossistema mínimo e deve se orgulhar. O uso descentralizado de referência da NFT em combinação com a BullishSwap Exchange é uma visão completamente nova da descentralização."
     },
-
     "get-started-btn": {
         "en": "Get started!",
         "ru": "Начать!",
@@ -44,14 +42,14 @@ var langsArray = {
         "es": "¡Empezar!",
         "pt": "Iniciar!"
     },
-    "swiper-title": {
+    "mintanbull-title": {
         "en": "mint a bull",
         "ru": "Мятный бык",
         "de": "Minze ein Stier",
         "es": "Menta un toro",
         "pt": "Mint um touro"
     },
-    "swiper-btn": {
+    "mintanbull-btn": {
         "en": "View the collection",
         "ru": "Посмотреть коллекцию",
         "de": "Sehen Sie sich die Sammlung an",
@@ -93,117 +91,369 @@ var langsArray = {
         "es": "Para empezar, comprendamos lo que nos trajo aquí y el dinero no está en primer lugar aquí. Ahora, al comienzo de grandes logros, debemos ser honestos y abiertos sobre nuestras intenciones. Valoramos el anonimato y siempre nos adheriremos a ella, lo que significa que no revelaremos nuestras identidades y ubicación. Estamos aquí para contribuir y sentar las bases de la libertad, para la libertad real, no falsa, que los principales actores del mercado se esconden y agitan, listos para devorarse, luchando no por los intereses y la libertad de la industria del mercado de la cripto , pero por su propia influencia y dinero. <br> <br> Bullishswap: pondrá todo en su lugar, dará libertad, anonimato y lo protegerá del fraude tanto como sea posible. El objetivo final del proyecto es resolver y probar todos los algoritmos para la seguridad a la seguridad. y automatizar todo tanto como sea posible para nuestra conveniencia, después de lo cual este proyecto se transferirá a la comunidad de código abierto, que realmente se descentraliza, sin presión desde el exterior. El objetivo del proyecto es ser gratuito, resistente a la censura, y es realmente posible hacerlo solo en la cadena de bloques mínimos.",
         "pt": "Para começar, vamos entender o que nos trouxe aqui e o dinheiro não está em primeiro lugar aqui. Agora, no início de grandes realizações, devemos ser honestos e abertos sobre nossas intenções. Valorizamos o anonimato e sempre aderiremos a ele, o que significa que não divulgaremos nossas identidades e localização. Estamos aqui para contribuir e estabelecer a base da liberdade, para liberdade real, não falsa, que os principais atores do mercado estão escondidos e agitando, prontos para se devorar, lutando não pelos interesses e liberdade da indústria de mercado criptográfica , mas por sua própria influência e dinheiro. <br> <br> BULLISHSWAP - colocará tudo em seu lugar, dará liberdade, anonimato e o protegerá da fraude o máximo possível. O objetivo final do projeto é descobrir e testar todos os algoritmos para segurança com o menor detalhe e automatize tudo o máximo possível para nossa conveniência, após o qual esse projeto será transferido para a comunidade de código aberto, que realmente se tornará descentralizado, sem pressão do lado de fora. O objetivo do projeto é ser gratuito, resistente à censura, e é realmente possível fazer isso apenas no mínimo de blockchain."
     },
+    "roadmap-title": {
+        "en": "roadmap",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "roadmap-stage-1": {
+        "en": "1 stage",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "roadmap-stage-1-span-1": {
+        "en": "Launch of NFT BullishSwap (BSNFTs)",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "roadmap-stage-1-span-2": {
+        "en": "Coronation of NFTs Bullish (MINT)",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "roadmap-stage-1-span-3": {
+        "en": "Launch of the referral system",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "roadmap-stage-1-span-4": {
+        "en": "NFTs Draw",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "roadmap-stage-1-span-5": {
+        "en": "Marketing cooperation",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "roadmap-stage-2": {
+        "en": "2 stage",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "roadmap-stage-2-span-1": {
+        "en": "Testing and debugging of smart contracts",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "roadmap-stage-2-span-2": {
+        "en": "Closed testing of DEX BullishSwap",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "roadmap-stage-2-span-3": {
+        "en": "Public testing of DEX BullishSwap",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "roadmap-stage-2-span-4": {
+        "en": "Gamma testing of DEX BullishSwap",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "roadmap-stage-2-span-5": {
+        "en": "Collaboration with influential people, marketing companies and platforms on an ongoing basis.Mass implementation.",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "roadmap-stage-2-span-6": {
+        "en": "Collaboration with influential people, marketing companies and platforms on an ongoing  basis.Mass implementation.",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "roadmap-stage-2-span-7": {
+        "en": "Launch of the DEX BullishSwap referral system",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "roadmap-stage-2-span-8": {
+        "en": "Launching DEX BullishSwap",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "roadmap-stage-3": {
+        "en": "3 stage",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "roadmap-stage-3-span-1": {
+        "en": "Testing and debugging of smart contracts",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "roadmap-stage-3-span-2": {
+        "en": "Testing the launch pad for launching tokens",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "roadmap-stage-3-span-3": {
+        "en": "Launch of a launch pad for launching tokens",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "roadmap-stage-3-span-4": {
+        "en": "Integration of influencers into the platform",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "influence-title": {
+        "en": "influence",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "influence-text": {
+        "en": "These are unique NFTs in the collection in a single copy that are intended for these people, as a thank you for the work they have done and their active participation in the development of blockchain technologies, as well  as for all possible   support",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "coronation-title": {
+        "en": "coronation",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "coronation-h3": {
+        "en": "The coronation <br> of the Bulls: <br> 0017 / 10000",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "coronation-btn": {
+        "en": "coronation",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "coronation-text": {
+        "en": "Current price: 0,025 ETH <br><a href='' target='_blank'> Terms & Conditions</a>",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "referal-title": {
+        "en": "REFFERAL PROGRAM",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "referal-reward": {
+        "en": "reward",
+        "ru": "Вознаграждение",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "referal-sale": {
+        "en": "",
+        "ru": "Скидка для рефералов:",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "referal-text": {
+        "en": "",
+        "ru": "Если Вы являетесь влиятельным человеком, мы можем предложить индивидуальную реферальную программу, просто напишите",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "referal-copy-btn": {
+        "en": "COPY REFERRAL LINK",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "referal-send-btn": {
+        "en": "send",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "referal-title": {
+        "en": "PRICE CHART",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
     "faq-question-1": {
-        "en": "How to purchase NFT?",
+        "en": "HOW DO I BECOME AN NFT OWNER?",
         "ru": "Как купить NFT?",
         "de": "Wie kaufe ich NFT?",
         "es": "¿Cómo comprar NFT?",
         "pt": "Como comprar a NFT?"
     },
     "faq-answer-1": {
-        "en": "- You have to start your node and install MiniDapp BullishSwap. <br><br> - Make sure that your node is working correctly and is on the last block. <br><br - Make sure you have enough Minima coins and purchase NFT.",
-        "ru": "- Вы должны запустить свой узел и установить Minidapp Bullishswap. <br> <br> - Убедитесь, что ваш узел работает правильно и находится на последнем блоке. <br> <Br - Убедитесь, что у вас достаточно монет минимумов и купите NFT.",
-        "de": "- Sie müssen Ihren Knoten starten und Minidapp BullishSwap installieren. <br> <br> - Stellen Sie sicher, dass Ihr Knoten richtig funktioniert und sich im letzten Block befindet. <br> <br - Stellen Sie sicher, dass Sie über genügend Minima -Münzen und NFT kaufen. ",
-        "es": "- Debe iniciar su nodo e instalar MinidApp BullishSwap. <br> <br> - Asegúrese de que su nodo funcione correctamente y esté en el último bloque. <br> <Br - Asegúrese de tener suficientes monedas mínimas y comprar NFT.",
-        "pt": "- Você precisa iniciar seu nó e instalar o MinIDAPP BULLISHSWAP. <br> <br> - Verifique se o seu nó está funcionando corretamente e está no último bloco. <br> <Br - verifique se você tem moedas mínimas suficientes e compre a NFT."
+        "en": "- You need to connect a wallet on the ETH network. <br>  - Make sure that there is enough ETH in your wallet according to the cost of the NFT and the gas price. <br> - If all of the above meets the requirements, you can purchase an NFT.",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
     },
     "faq-question-2": {
-        "en": "How to avoid fraud?",
+        "en": "HOW TO AVOID FRAUD?",
         "ru": "Как избежать мошенничества?",
         "de": "Wie vermeiden Sie Betrug?",
         "es": "¿Cómo evitar el fraude?",
         "pt": "Como evitar fraudes?"
     },
     "faq-answer-2": {
-        "en": "text texttext text text text text text",
-        "ru": "текст тексттекст текст текст текст текст",
-        "de": "texto Textext Texto Texto Texto Texto",
-        "es": "texto Textext Texto Texto Texto Texto",
-        "pt": "texto texto texttext text text text text text"
+        "en": "<span>It is quite possible that a large amount of fraud is being activated, so  be careful and careful!</span>  <br><br> - Always check the site and social networks for authenticity, make sure that you are in a safe place.<br>- Follow the news only from the official sources of the BullishSwap project.<br>  - Do not click on the links to purchase NFT BullishSwap.We have only one  website bullishswap.app! <br>  - Do not try to buy NFT from someone directly until a specialized platform is implemented, you may fall into the hands   of scammers.<br> - We do not have technical support and we will never be the first to write. If someone wrote to you with a suggestion, then these are scammers, block it and report it in our Telegram channel t.me / bullishswap in the 'SCAMMERS' section.<br> ",
+        "ru": "s",
+        "de": "s",
+        "es": "s",
+        "pt": "s"
     },
     "faq-question-3": {
-        "en": "How to avoid fraud?",
-        "ru": "Как избежать мошенничества?",
-        "de": "Wie vermeiden Sie Betrug?",
-        "es": "¿Cómo evitar el fraude?",
-        "pt": "Como evitar fraudes?"
+        "en": "WHERE CAN I GET RELIABLE INFORMATION ABOUT THE PROJECT?",
+        "ru": "Где я могу получить надежную информацию <br> о проекте?",
+        "de": "Wo kann ich zuverlässige Informationen über das Projekt erhalten?",
+        "es": "¿Dónde puedo obtener información confiable <br> sobre el proyecto?",
+        "pt": "Onde posso obter informações confiáveis <br> Sobre o projeto?"
     },
     "faq-answer-3": {
-        "en": "text texttext text text text text text",
+        "en": "<span>All reliable information is published on social networks:</span><br><br> 1. Telegram - t.me/bullishswap <br> 2. Twitter - x.com/bullishswap <br> 3. Discord - discord.gg/JWdSQ3kN6K <br> 4. Youtube - youtube.com/@bullishswa <br> 5. GitHub - github.com/bullishswap",
         "ru": "текст тексттекст текст текст текст текст",
         "de": "texto Textext Texto Texto Texto Texto",
         "es": "texto Textext Texto Texto Texto Texto",
         "pt": "texto texto texttext text text text text text"
     },
     "faq-question-4": {
-        "en": "Where can I get reliable information <br> about the project?",
-        "ru": "Где я могу получить надежную информацию <br> о проекте?",
-        "de": "Wo kann ich zuverlässige Informationen über das Projekt erhalten?",
-        "es": "¿Dónde puedo obtener información confiable <br> sobre el proyecto?",
-        "pt": "Onde posso obter informações confiáveis <br> Sobre o projeto?"
+        "en": "How do I get a referral link?",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
     },
     "faq-answer-4": {
-        "en": "text texttext text text text text text",
-        "ru": "текст тексттекст текст текст текст текст",
-        "de": "texto Textext Texto Texto Texto Texto",
-        "es": "texto Textext Texto Texto Texto Texto",
-        "pt": "texto texto texttext text text text text text"
+        "en": "After purchasing the NFT, your personal link will be activated, which you can copy in the Coronation section With each purchase from your referral link, you will receive 10% of the  reward and your customer will receive a 10% discount",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
     },
     "faq-question-5": {
-        "en": "Any other questions?",
-        "ru": "Другие вопросы?",
-        "de": "Weitere Fragen?",
-        "es": "¿Alguna otra pregunta?",
-        "pt": "Alguma outra pergunta?"
+        "en": "PARTNERSHIP",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
     },
     "faq-answer-5": {
-        "en": "text texttext text text text text text",
-        "ru": "текст тексттекст текст текст текст текст",
-        "de": "texto Textext Texto Texto Texto Texto",
-        "es": "texto Textext Texto Texto Texto Texto",
-        "pt": "texto texto texttext text text text text text"
+        "en": "If you are an influential person and have your own social media channels on this topic, we are ready to offer you  individual referral cooperation, just write to us.",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
     },
-    "ask-a-question-btn": {
+    "faq-question-6": {
         "en": "Ask a question",
         "ru": "Задть вопрос",
         "de": "Stelle eine Frage",
         "es": "Hacer una pregunta",
         "pt": "Faça uma pergunta"
     },
+    "faq-answer-6": {
+        "en": "Do you have a question? ask it here and we will send a reply to your email",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "send-btn": {
+        "en": "Send",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
     "fl-1": {
-        "en": "Mint an Bull",
-        "ru": "Мятный бык",
-        "de": "Minze ein Stier",
-        "es": "Menta un toro",
-        "pt": "Mint um touro"
+        "en": "Collection",
+        "ru": "",
+        "de": "r",
+        "es": "",
+        "pt": ""
     },
     "fl-2": {
-        "en": "Presents",
-        "ru": "Подарки",
-        "de": "Die Geschenke",
-        "es": "Regalos",
-        "pt": "Presentes"
-    },
-    "fl-3": {
         "en": "Labs",
         "ru": "Лаборатории",
         "de": "Labors",
         "es": "Laboratorios",
         "pt": "Laboratórios"
     },
-    "fl-4": {
+    "fl-3": {
         "en": "About",
         "ru": "О нас",
         "de": "Um",
         "es": "Acerca de",
         "pt": "Sobre"
     },
+    "fl-4": {
+        "en": "Roadmap",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
     "all-rights": {
-        "en": "All Rights Reserved © Uncnown Tournament",
-        "ru": "Все права защищены © неизвестный турнир",
-        "de": "Alle Rechte vorbehalten © unbekanntes Turnier",
-        "es": "Todos los derechos reservados © Torneo desconocido",
-        "pt": "Todos os direitos reservados © Desconhecido Torneio"
+        "en": "All Rights Reserved © Uncnown Tournament <br><span>Terms & Conditions</span>",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
     },
     "popup-btn": {
         "en": "Ask a question",

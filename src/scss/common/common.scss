@@ -85,14 +85,13 @@ p {
     align-items: center;
     justify-content: center;
     width: 350px;
-    height: 64px;
+    height: 71px;
     border: 7px solid rgba(221, 12, 12, 0.12);
-    border-radius: 17px;
+    border-radius: 26px;
     overflow: hidden;
     position: relative;
 
     @media (max-width: 768px) {
-        border-radius: 15px;
         border: 6px solid rgba(221, 12, 12, 0.12);
         width: 100%;
     }
@@ -106,6 +105,7 @@ p {
         height: 100%;
         background: linear-gradient(180deg, #b81f1f 0%, #6c0606 100%);
         z-index: -1;
+        border-radius: 20px;
     }
 
     color: #fff;
@@ -158,6 +158,11 @@ svg {
         flex: 0 0 auto;
         position: relative;
 
+        @media (max-width: 768px) {
+            width: 6px;
+            height: 6px;
+        }
+
         &:after {
             position: absolute;
             content: "";
@@ -167,19 +172,24 @@ svg {
             top: 50%;
             transform: translate(-50%, -50%);
             border-radius: 50%;
+
+            @media (max-width: 768px) {
+                width: 12px;
+                height: 12px;
+            }
         }
 
         &.swiper-pagination-bullet-active {
             background: linear-gradient(180deg, #b81f1f 0%, #6c0606 100%);
             margin: 0 5px;
+
+            @media (max-width: 768px) {
+                margin: 0 2px;
+            }
+
             &:after {
                 border: 1px solid #6c0606;
             }
-        }
-
-        @media (max-width: 768px) {
-            width: 6px;
-            height: 6px;
         }
     }
 }
