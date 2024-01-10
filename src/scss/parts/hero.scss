@@ -57,22 +57,66 @@
         width: 100px;
         height: 100px;
         position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        background-color: red;
+        left: 58%;
+        top: 22%;
+        z-index: 1;
+
+        @media (max-width: 1560px) {
+            left: 60%;
+        }
+
+        @media (max-width: 1200px) {
+            left: 62%;
+        }
+
+        @media (max-width: 768px) {
+            width: 60px;
+            height: 60px;
+            @include adaptive-value("top", 300, 65, 1);
+        }
     }
 
     .countdown {
         width: fit-content;
         position: absolute;
-        left: 14.7%;
-        top: 67.5%;
-        transform: perspective(1000px) rotateX(0deg) rotateY(353deg) rotateZ(6.6deg);
 
-        * {
+        transform: perspective(1000px) rotateX(0deg) rotateY(353deg) rotateZ(6.6deg);
+        top: 67.17%;
+
+        @media (min-width: 1141px) {
+            left: calc(30px + 420 * (100vw - 1140px) / 832);
+        }
+
+        @media (max-width: 1140px) {
+            @include adaptive-value("left", 25, 8, 1);
+        }
+
+        @media (max-width: 768px) {
+            @include adaptive-value("left", 50, 8, 1);
+        }
+
+        @media (max-width: 320px) {
+            left: 25px;
+        }
+
+        @media (max-width: 1141px) {
+            @include adaptive-value("top", 850, 236, 1);
+        }
+
+        @media (max-width: 768px) {
+            gap: 2px;
+        }
+
+        .countdown__item {
+            @media (max-width: 768px) {
+                gap: 2px;
+            }
+        }
+
+        span {
             color: #265f15;
-            font-size: 24px;
+            @include adaptive-value("font-size", 30, 10, 1);
+            font-weight: 700;
         }
     }
 }

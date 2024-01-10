@@ -178,14 +178,10 @@
             width: 578px;
             height: 520px;
 
-            @media (max-width: 768px) {
-                @include adaptive-value("height", 500, 320, 1);
-                margin-bottom: 13px;
-            }
-
-            @media (max-width: 425px) {
+            @media (max-width: 992px) {
                 width: 100vw;
-                margin-left: 16px;
+                height: 320px;
+                margin-bottom: 13px;
             }
 
             img {
@@ -195,6 +191,11 @@
                 height: 100%;
                 object-fit: cover;
                 object-position: top;
+
+                @media (max-width: 992px) {
+                    object-fit: contain;
+                    object-position: bottom;
+                }
             }
         }
     }
@@ -207,10 +208,14 @@
         height: 100%;
         object-fit: cover;
         z-index: -1;
-        min-height: 523px;
 
-        @media (max-width: 768px) {
-            @include adaptive-value("height", 600, 320, 1);
+        @media (min-width: 993px) {
+            min-height: 523px;
+        }
+
+        @media (max-width: 992px) {
+            height: 320px;
+            top: 40px;
         }
     }
 }
@@ -588,32 +593,64 @@
         }
     }
 
+    .influence-slider {
+        overflow: hidden;
+        width: 100%;
+        padding-top: 100px;
+
+        @media (max-width: 425px) {
+            width: 100vw;
+        }
+    }
+
     .swiper {
         width: 100%;
+        overflow: visible;
+        margin-bottom: 100px;
+
+        @media (max-width: 425px) {
+            margin-bottom: 70px;
+        }
 
         &-slide {
-            width: 360px;
-            height: 360px;
             flex: 0 0 auto;
-            transform: scale(0.8);
-            margin: 0 -80px;
 
-            @media (max-width: 768px) {
-                height: 208px;
-                width: 208px;
+            .influence-img {
+                flex: 0 0 auto;
+                width: 100%;
+                position: relative;
+                padding-bottom: 100%;
+                transform: scale(1.14);
+
+                transition: transform 0.3s ease 0s;
+                transform-origin: bottom 30px;
+            }
+
+            &.swiper-slide-prev,
+            &.swiper-slide-next {
+                z-index: 1;
+
+                .influence-img {
+                    transform: scale(1.45);
+                }
+            }
+
+            &.swiper-slide-active {
+                z-index: 2;
+
+                .influence-img {
+                    transform: scale(1.7);
+                }
             }
 
             img {
                 width: 100%;
                 height: 100%;
                 object-fit: contain;
+                position: absolute;
+                left: 0;
+                top: 0;
             }
-        }
-
-        .swiper-slide-active {
-            transform: scale(1);
-            position: relative;
-            z-index: 2;
         }
     }
 }
@@ -869,7 +906,6 @@
 
             @media (max-width: 768px) {
                 gap: 10px;
-                padding: 0 10px;
                 height: 50px;
 
                 label {

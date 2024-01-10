@@ -33,27 +33,24 @@
 
         <a href="#present" class="present-btn"></a>
 
-        <div class="countdown">
-            <div>
-                <span class="number months"></span>
+        <div class="countdown" data-days="16">
+            <div class="countdown__item">
+                <span class="days">0</span>
                 <span>:</span>
             </div>
-            <div>
-                <span class="number days"></span>
+            <div class="countdown__item">
+                <span class="hours">0</span>
                 <span>:</span>
             </div>
-            <div>
-                <span class="number hours"></span>
+            <div class="countdown__item">
+                <span class="minutes">0</span>
                 <span>:</span>
             </div>
-            <div>
-                <span class="number minutes"></span>
-                <span>:</span>
-            </div>
-            <div>
-                <span class="number seconds"></span>
+            <div class="countdown__item">
+                <span class="seconds">0</span>
             </div>
         </div>
+
 
         <div class="hero__container _container">
             <div class="hero__body">
@@ -240,10 +237,7 @@
     </section>
 
     <section class="section" id="labs" data-replace-width="992">
-        <picture>
-            <source media="(max-width:768px)" srcset="img/labs-bgi-moble.png">
-            <img class="labs-bgi" src="img/labs-bgi.png" alt="">
-        </picture>
+        <img class="labs-bgi" src="img/labs-bgi.png" alt="">
 
         <div class="section__container _container" data-replace-new-position="beforebegin">
             <div class="section__body">
@@ -369,41 +363,63 @@
                 <div class="section__top">
                     <h2 data-ml="influence-title">Influence</h2>
                 </div>
-                <div class="swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="img/influence/influence-1.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="img/influence/influence-2.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="img/influence/influence-3.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="img/influence/influence-4.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="img/influence/influence-5.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="img/influence/influence-1.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="img/influence/influence-2.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="img/influence/influence-3.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="img/influence/influence-4.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="img/influence/influence-5.png" alt="">
+                <div class="influence-slider">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="influence-img">
+                                    <img src="img/influence/influence-1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="influence-img">
+                                    <img src="img/influence/influence-2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="influence-img">
+                                    <img src="img/influence/influence-3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="influence-img">
+                                    <img src="img/influence/influence-4.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="influence-img">
+                                    <img src="img/influence/influence-5.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="influence-img">
+                                    <img src="img/influence/influence-1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="influence-img">
+                                    <img src="img/influence/influence-2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="influence-img">
+                                    <img src="img/influence/influence-3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="influence-img">
+                                    <img src="img/influence/influence-4.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="influence-img">
+                                    <img src="img/influence/influence-5.png" alt="">
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <div class="pagination"></div>
                 </div>
-                <div class="pagination"></div>
                 <p data-ml="influence-text"></p>
             </div>
         </div>
@@ -464,25 +480,21 @@
                             </div>
                             <button class="coronation-btn">
                                 <label data-ml="launch-btn-text">Launch:</label>
-                                <div class="countdown">
-                                    <div>
-                                        <span class="number months"></span>
+                                <div class="countdown" data-days="1">
+                                    <div class="countdown__item">
+                                        <span class="days">0</span>
                                         <span>:</span>
                                     </div>
-                                    <div>
-                                        <span class="number days"></span>
+                                    <div class="countdown__item">
+                                        <span class="hours">0</span>
                                         <span>:</span>
                                     </div>
-                                    <div>
-                                        <span class="number hours"></span>
+                                    <div class="countdown__item">
+                                        <span class="minutes">0</span>
                                         <span>:</span>
                                     </div>
-                                    <div>
-                                        <span class="number minutes"></span>
-                                        <span>:</span>
-                                    </div>
-                                    <div>
-                                        <span class="number seconds"></span>
+                                    <div class="countdown__item">
+                                        <span class="seconds">0</span>
                                     </div>
                                 </div>
                             </button>

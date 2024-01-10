@@ -1,5 +1,5 @@
 import Swiper from 'swiper';
-import { Pagination, Autoplay, Grid } from 'swiper/modules';
+import { Pagination, Autoplay, Grid, EffectCoverflow } from 'swiper/modules';
 
 const sliders = document.querySelectorAll('.swiper');
 
@@ -48,23 +48,41 @@ if (sliders.length) {
         else if (section.classList.contains('influence')) {
             new Swiper(slider, {
                 modules: [
-                    Pagination, Autoplay
+                    Pagination, Autoplay, EffectCoverflow
                 ],
 
                 loop: true,
-                slidesPerView: 'auto',
+                slidesPerView: 5,
                 centeredSlides: true,
-
+                initialSlide: 2,
                 pagination: {
                     el: pagination,
                     clickable: true
                 },
 
-                // autoplay: {
-                //     delay: 4000,
-                //     disableOnInteraction: false,
-                // },
-                // speed: 600,
+                autoplay: {
+                    delay: 1000,
+                    disableOnInteraction: false,
+                },
+                speed: 600,
+
+
+                breakpoints: {
+                    300: {
+                        slidesPerView: 2,
+
+                    },
+                    425: {
+                        slidesPerView: 3,
+
+                    },
+                    769: {
+                        slidesPerView: 4,
+                    },
+                    992: {
+                        slidesPerView: 5,
+                    }
+                }
 
             })
         }
