@@ -503,10 +503,10 @@
     .swiper {
         width: 100%;
         overflow: visible;
-        margin-bottom: 100px;
+        margin-bottom: 118px;
 
-        @media (max-width: 425px) {
-            margin-bottom: 70px;
+        @media (max-width: 992px) {
+            @include adaptive-value("margin-bottom", 118, 80, 1);
         }
 
         &-slide {
@@ -708,6 +708,7 @@
                 text-transform: uppercase;
                 text-align: center;
                 font-variant-numeric: lining-nums proportional-nums;
+                pointer-events: none;
 
                 ::placeholder {
                     opacity: 1;
@@ -1057,7 +1058,7 @@
                     }
                 }
             }
-            
+
             // .accordion__item-title
 
             &-title {

@@ -4,6 +4,7 @@ import "./parts/sliders.js";
 import "./parts/popup.js";
 import "./parts/video.js";
 import "./parts/countdown.js";
+import "./parts/coronation.js";
 
 import { replaceDomElements } from "./static/replace.js";
 import { accorden } from "./static/accordeon.js";

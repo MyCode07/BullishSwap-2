@@ -139,7 +139,8 @@
         span {
             width: fit-content !important;
             margin-bottom: 5px;
-            font-weight: 400 !important;
+            font-weight: 300 !important;
+            font-size: 14px !important;
         }
     }
 
@@ -147,6 +148,11 @@
         width: 100%;
         color: #000;
         height: 40px;
+        font-size: 14px;
+        
+        option {
+            font-size: 14px;
+        }
     }
 
     .form__send {

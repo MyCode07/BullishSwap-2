@@ -163,8 +163,8 @@ svg {
         position: relative;
 
         @media (max-width: 768px) {
-            width: 6px;
-            height: 6px;
+            width: 8px;
+            height: 8px;
         }
 
         &:after {
@@ -178,8 +178,8 @@ svg {
             border-radius: 50%;
 
             @media (max-width: 768px) {
-                width: 12px;
-                height: 12px;
+                width: 14px;
+                height: 14px;
             }
         }
 

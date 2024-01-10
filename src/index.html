@@ -13,22 +13,8 @@
         </picture>
 
         <button class="burger">
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
-                <path opacity="0.15"
-                    d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z"
-                    fill="#DD0C0C" />
-                <circle cx="24.0677" cy="24.0677" r="18.72" fill="url(#paint0_linear_169_4781)" />
-                <path d="M19.4277 22.8566H28.5706V25.1423H19.4277V22.8566Z" fill="white" />
-                <path d="M19.4277 18.2852H28.5706V20.5709H19.4277V18.2852Z" fill="white" />
-                <path d="M19.4277 27.428H28.5706V29.7137H19.4277V27.428Z" fill="white" />
-                <defs>
-                    <linearGradient id="paint0_linear_169_4781" x1="24.0677" y1="5.34766" x2="24.0677" y2="42.7877"
-                        gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#B81F1F" />
-                        <stop offset="1" stop-color="#6C0606" />
-                    </linearGradient>
-                </defs>
-            </svg>
+            <img class="open" src="img/icons/open.svg" alt="">
+            <img class="close" src="img/icons/close.svg" alt="">
         </button>
 
         <a href="#present" class="present-btn"></a>
@@ -472,11 +458,11 @@
                             <div>
                                 <img class="main-img" src="img/coronation-Img.png" alt="">
                                 <div class="input">
-                                    <button>
+                                    <button class="minus">
                                         <img src="img/icons/minus.svg" alt="">
                                     </button>
-                                    <input type="text" placeholder="max 3 NFTs">
-                                    <button>
+                                    <input type="number" placeholder="max 3 NFTs" min="1" max="3">
+                                    <button class="plus">
                                         <img src="img/icons/plus.svg" alt="">
                                     </button>
                                 </div>
