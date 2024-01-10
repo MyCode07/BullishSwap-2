@@ -7,7 +7,11 @@
 
 <main>
     <section class="hero">
-        <a href="#present" class="present-btn"></a>
+        <picture>
+            <source media="(max-width:320px)" srcset="img/hero-bgi-moble.png">
+            <img class="hero-bgi" src="img/hero-bgi.png" alt="">
+        </picture>
+
         <button class="burger">
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
                 <path opacity="0.15"
@@ -27,10 +31,29 @@
             </svg>
         </button>
 
-        <picture>
-            <source media="(max-width:320px)" srcset="img/hero-bgi-moble.png">
-            <img class="hero-bgi" src="img/hero-bgi.png" alt="">
-        </picture>
+        <a href="#present" class="present-btn"></a>
+
+        <div class="countdown">
+            <div>
+                <span class="number months"></span>
+                <span>:</span>
+            </div>
+            <div>
+                <span class="number days"></span>
+                <span>:</span>
+            </div>
+            <div>
+                <span class="number hours"></span>
+                <span>:</span>
+            </div>
+            <div>
+                <span class="number minutes"></span>
+                <span>:</span>
+            </div>
+            <div>
+                <span class="number seconds"></span>
+            </div>
+        </div>
 
         <div class="hero__container _container">
             <div class="hero__body">
@@ -427,17 +450,42 @@
                             </li>
                         </ol>
                         <div class="calculation">
-                            <img class="main-img" src="img/coronation-Img.png" alt="">
                             <div>
-                                <button>
-                                    <img src="img/icons/minus.svg" alt="">
-                                </button>
-                                <input type="text" placeholder="max 3 NFTs">
-                                <button>
-                                    <img src="img/icons/plus.svg" alt="">
-                                </button>
+                                <img class="main-img" src="img/coronation-Img.png" alt="">
+                                <div class="input">
+                                    <button>
+                                        <img src="img/icons/minus.svg" alt="">
+                                    </button>
+                                    <input type="text" placeholder="max 3 NFTs">
+                                    <button>
+                                        <img src="img/icons/plus.svg" alt="">
+                                    </button>
+                                </div>
                             </div>
-                            <button class="_button" data-ml="coronation-btn">coronation</button>
+                            <button class="coronation-btn">
+                                <label data-ml="launch-btn-text">Launch:</label>
+                                <div class="countdown">
+                                    <div>
+                                        <span class="number months"></span>
+                                        <span>:</span>
+                                    </div>
+                                    <div>
+                                        <span class="number days"></span>
+                                        <span>:</span>
+                                    </div>
+                                    <div>
+                                        <span class="number hours"></span>
+                                        <span>:</span>
+                                    </div>
+                                    <div>
+                                        <span class="number minutes"></span>
+                                        <span>:</span>
+                                    </div>
+                                    <div>
+                                        <span class="number seconds"></span>
+                                    </div>
+                                </div>
+                            </button>
                             <p data-ml="coronation-text">Current price: 0,025 ETH <br>
                                 <a href="" target="_blank">Terms & Conditions</a>
                             </p>
@@ -649,6 +697,21 @@
                                             <div class="form__input">
                                                 <input type="text" placeholder="Email">
                                             </div>
+                                        </div>
+                                        <div class="form__input">
+                                            <label for="partnership/suggest">
+                                                <span class="value">Partnership/Suggest</span>
+                                                <input id="partnership/suggest" name="type" type="radio"
+                                                    value="Partnership/Suggest">
+                                                <div class="checkbox"></div>
+                                            </label>
+                                        </div>
+                                        <div class="form__input">
+                                            <label for="idea/other">
+                                                <span class="value">Idea/Other</span>
+                                                <input id="idea/other" name="type" type="radio" value="idea/other">
+                                                <div class="checkbox"></div>
+                                            </label>
                                         </div>
                                         <div class="form__input">
                                             <textarea name="" id="" cols="30" rows="10"

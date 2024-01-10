@@ -265,16 +265,23 @@ var langsArray = {
         "de": "",
         "es": "",
         "pt": ""
+    }, 
+    "launch-btn-text": {
+        "en": "Launch:",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
     },
-    "coronation-btn": {
-        "en": "coronation",
+    "coronation-btn-text": {
+        "en": "Connect Wallet",
         "ru": "",
         "de": "",
         "es": "",
         "pt": ""
     },
     "coronation-text": {
-        "en": "Current price: 0,025 ETH <br><a href='' target='_blank'> Terms & Conditions</a>",
+        "en": "Current price: 0,025 ETH <br><a href='terms-conditions.html' target='_blank'> Terms & Conditions</a>",
         "ru": "",
         "de": "",
         "es": "",
@@ -295,15 +302,15 @@ var langsArray = {
         "pt": ""
     },
     "referal-sale": {
-        "en": "",
+        "en": "Sale",
         "ru": "Скидка для рефералов:",
         "de": "",
         "es": "",
         "pt": ""
     },
     "referal-text": {
-        "en": "",
-        "ru": "Если Вы являетесь влиятельным человеком, мы можем предложить индивидуальную реферальную программу, просто напишите",
+        "en": "Если Вы являетесь влиятельным человеком, мы можем предложить индивидуальную реферальную программу, просто напишите.",
+        "ru": "Если Вы являетесь влиятельным человеком, мы можем предложить индивидуальную реферальную программу, просто напишите.",
         "de": "",
         "es": "",
         "pt": ""
@@ -449,7 +456,7 @@ var langsArray = {
         "pt": ""
     },
     "all-rights": {
-        "en": "All Rights Reserved © Uncnown Tournament <br><span>Terms & Conditions</span>",
+        "en": "All Rights Reserved © Uncnown Tournament <br><a href='terms-conditions.html'>Terms & Conditions</a> ",
         "ru": "",
         "de": "",
         "es": "",
