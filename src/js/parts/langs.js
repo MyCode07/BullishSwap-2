@@ -12,8 +12,6 @@ async function getLangs() {
         alert("Error");
     }
 }
-// getLangs();
-
 
 
 let allLang = [];
@@ -38,28 +36,26 @@ langs.forEach(lang => {
         langsElem.classList.remove('_open')
 
         langs.forEach(item => {
-            item.classList.remove('_selected')
+            if (lang.dataset.lang == item.dataset.lang) {
+                lang.classList.add('_selected')
+            }
+            else {
+                item.classList.remove('_selected')
+            }
         })
 
-        lang.classList.add('_selected')
-        changeURLLanguage(lang.dataset.lang);
+        localStorage.setItem('hash', lang.dataset.lang)
+        changeLanguage(langsArray);
     })
 })
 
 
-function changeURLLanguage(langCode) {
-    location.href = window.location.pathname + '#' + langCode;
-    location.reload();
-}
 
 
 function changeLanguage(data) {
-    let hash = window.location.hash;
-    hash = hash.substr(1);
-
-    if (!allLang.includes(hash)) {
-        location.href = window.location.pathname + '#en';
-        location.reload();
+    let hash = localStorage.getItem('hash');
+    if (!hash) {
+        localStorage.setItem('hash', allLang[0])
     }
 
     label.textContent = hash;
@@ -72,13 +68,13 @@ function changeLanguage(data) {
     }
 
     langs.forEach(item => {
-        item.classList.remove('_selected')
-
         if (item.dataset.lang == hash) {
             item.classList.add('_selected')
         }
+        else {
+            item.classList.remove('_selected')
+        }
     })
-
 }
 
 changeLanguage(langsArray);

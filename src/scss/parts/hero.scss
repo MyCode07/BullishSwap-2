@@ -1,5 +1,4 @@
 .hero {
-    @include adaptive-value("margin-bottom", 72, 30, 1);
     position: relative;
 
     // .hero-bgi
@@ -81,7 +80,7 @@
         position: absolute;
 
         transform: perspective(1000px) rotateX(0deg) rotateY(353deg) rotateZ(6.6deg);
-        top: 67.17%;
+        top: 83.4%;
 
         @media (min-width: 1141px) {
             left: calc(30px + 420 * (100vw - 1140px) / 832);
@@ -95,16 +94,20 @@
             @include adaptive-value("left", 50, 8, 1);
         }
 
-        @media (max-width: 320px) {
-            left: 25px;
-        }
-
         @media (max-width: 1141px) {
             @include adaptive-value("top", 850, 236, 1);
         }
 
         @media (max-width: 768px) {
             gap: 2px;
+        }
+
+        @media (max-width: 425px) {
+            @include adaptive-value("top", 850, 238, 1);
+        }
+
+        @media (max-width: 320px) {
+            left: 25px;
         }
 
         .countdown__item {
@@ -119,4 +122,8 @@
             font-weight: 700;
         }
     }
+}
+
+.hero-text {
+    @include adaptive-value("margin-bottom", 72, 30, 1);
 }
