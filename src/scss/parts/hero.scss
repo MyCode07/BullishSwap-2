@@ -4,10 +4,6 @@
     // .hero-bgi
 
     &-bgi {
-        object-fit: cover;
-        @include adaptive-value("height", 1018, 284, 1);
-
-        min-height: 284px;
     }
 
     // .hero__container
@@ -27,7 +23,7 @@
 
     &__content {
         position: relative;
-        margin-top: 28px;
+        @include adaptive-value("margin-top", 28, 0, 1);
 
         display: flex;
         flex-direction: column;
@@ -80,45 +76,52 @@
         position: absolute;
 
         transform: perspective(1000px) rotateX(0deg) rotateY(353deg) rotateZ(6.6deg);
-        top: 83.4%;
+        top: 83.7%;
+        left: 22.8%;
 
-        @media (min-width: 1141px) {
-            left: calc(30px + 420 * (100vw - 1140px) / 832);
+        @media (max-width: 1920px) and (min-width: 320px) {
+            font-size: calc(6px + 22 * (100vw - 320px) / 1600);
         }
 
-        @media (max-width: 1140px) {
-            @include adaptive-value("left", 25, 8, 1);
+        @media (min-width: 1921px) {
+            font-size: 30px;
+        }
+
+        @media (max-width: 1500px) {
+            left: 22%;
+        }
+
+        @media (max-width: 1200px) {
+            gap: 5px;
+            left: 23%;
+            top: 83.8%;
+        }
+
+        @media (max-width: 992px) {
+            left: 22.2%;
         }
 
         @media (max-width: 768px) {
-            @include adaptive-value("left", 50, 14, 1);
-        }
-
-        @media (max-width: 1141px) {
-            @include adaptive-value("top", 850, 236, 1);
-        }
-
-        @media (max-width: 768px) {
-            gap: 2px;
-        }
-
-        @media (max-width: 425px) {
-            @include adaptive-value("top", 850, 237, 1);
+            left: 23.5%;
+            gap: 0;
         }
 
         @media (max-width: 320px) {
-            left: 28px;
+            font-size: 7px;
+            left: 22.2%;
         }
 
         .countdown__item {
+            @media (max-width: 1200px) {
+                gap: 5px;
+            }
             @media (max-width: 768px) {
-                gap: 2px;
+                gap: 0px;
             }
         }
 
         span {
             color: #265f15;
-            @include adaptive-value("font-size", 30, 10, 1);
             font-weight: 700;
         }
     }
@@ -131,5 +134,4 @@
             @include adaptive-value("margin-bottom", 20, 10, 1);
         }
     }
- 
 }

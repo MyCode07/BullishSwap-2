@@ -146,8 +146,12 @@
 
     ._button {
         width: 100%;
-        @include adaptive-value("height", 60, 50, 1);
+        @include adaptive-value("height", 66, 56, 1);
         @include adaptive-value("margin-bottom", 18, 15, 1);
+
+        &:after {
+            border-radius: 17px;
+        }
     }
 }
 

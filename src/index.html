@@ -7,10 +7,7 @@
 
 <main>
     <section class="hero">
-        <picture>
-            <source media="(max-width:320px)" srcset="img/hero-bgi-moble.png">
-            <img class="hero-bgi" src="img/hero-bgi.png" alt="">
-        </picture>
+        <img class="hero-bgi" src="img/hero-bgi.png" alt="">
 
         <button class="burger">
             <img class="open" src="img/icons/open.svg" alt="">
@@ -19,6 +16,7 @@
 
         <a href="#present" class="present-btn"></a>
 
+        <!-- Таймер старт - пример : 20 Jan 2024 16:00:00 -->
         <div class="countdown" data-deadline="20 Jan 2024 11:00:00">
             <div class="countdown__item">
                 <span class="days">0</span>
@@ -36,6 +34,7 @@
                 <span class="seconds">0</span>
             </div>
         </div>
+        <!-- Таймер конец -->
     </section>
 
     <section class="section hero-text">
@@ -421,34 +420,34 @@
                         <ol class="chart">
                             <label data-ml="chart-title">PRICE CHART</label>
                             <li>
-                                <p>0001-1000 = 0.025</p> <span>ETH</span>
+                                <p>0001-1000 = 0.015</p> <span>ETH</span>
                             </li>
                             <li>
-                                <p>1001-2000 = 0.05</p> <span>ETH</span>
+                                <p>1001-2000 = 0.025</p> <span>ETH</span>
                             </li>
                             <li>
-                                <p>2001-3000 = 0.1</p> <span>ETH</span>
+                                <p>2001-3000 = 0.035</p> <span>ETH</span>
                             </li>
                             <li>
-                                <p>3001-4000 = 0.2</p> <span>ETH</span>
+                                <p>33001-4000 = 0.05</p> <span>ETH</span>
                             </li>
                             <li>
                                 <p>4001-5000 = 0.1</p> <span>ETH</span>
                             </li>
                             <li>
-                                <p>5001-6000 = 0.3</p> <span>ETH</span>
+                                <p>5001-6000 = 0.2</p> <span>ETH</span>
                             </li>
                             <li>
-                                <p>6001-7000 = 0.4</p> <span>ETH</span>
+                                <p>6001-7000 = 0.3</p> <span>ETH</span>
                             </li>
                             <li>
-                                <p>7001-8000 = 0.5</p> <span>ETH</span>
+                                <p>7001-8000 = 0.4</p> <span>ETH</span>
                             </li>
                             <li>
-                                <p>8001-9000 = 0.6</p> <span>ETH</span>
+                                <p>88001-9000 = 0.5</p> <span>ETH</span>
                             </li>
                             <li>
-                                <p>9001-10000 = 0.7</p> <span>ETH</span>
+                                <p>9001-10000 = 0.6</p> <span>ETH</span>
                             </li>
                         </ol>
                         <div class="calculation">
@@ -466,6 +465,7 @@
                             </div>
                             <button class="coronation-btn">
                                 <label data-ml="launch-btn-text">Launch:</label>
+                                <!-- Таймер старт - пример : 20 Jan 2024 16:00:00 -->
                                 <div class="countdown" data-deadline="20 Jan 2024 16:00:00">
                                     <div class="countdown__item">
                                         <span class="days">0</span>
@@ -483,6 +483,7 @@
                                         <span class="seconds">0</span>
                                     </div>
                                 </div>
+                                <!-- Таймер конец -->
                             </button>
                             <p data-ml="coronation-text">Current price: 0,025 ETH <br>
                                 <a href="" target="_blank">Terms & Conditions</a>
@@ -696,9 +697,10 @@
                                         </div>
                                         <div class="form__input" data-required>
                                             <span>Select category</span>
-                                            <select name="emal-to-send">
-                                                <option selected>Partnership/Sugges</option>
-                                                <option>Idea/Other</option>
+                                            <select name="email-to-send">
+                                                <option value="yeremyan199@gmail.com" selected>Partnership/Sugges
+                                                </option>
+                                                <option value="yeremyan199@gmail.com">Idea/Other</option>
                                             </select>
                                         </div>
 

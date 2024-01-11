@@ -201,6 +201,7 @@ svg {
 .multilanguage {
     position: relative;
     transition: all 0.2s ease 0s;
+    font-family: "Bahnschrift";
 
     button {
         cursor: pointer;
@@ -225,7 +226,6 @@ svg {
         display: block;
         margin-right: 3px;
         color: #fff;
-        font-family: Bahnschrift;
         font-size: 10px;
         font-style: normal;
         font-weight: 300;
@@ -344,16 +344,12 @@ svg {
     @media (max-width: 768px) {
         gap: 5px;
     }
+
     span {
         font-family: "Inter";
-        font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: 1;
         text-align: center;
-
-        @media (max-width: 768px) {
-            font-size: 14px;
-        }
     }
 }
