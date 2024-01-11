@@ -50,18 +50,18 @@ langs.forEach(lang => {
     })
 })
 
-
+localStorage.clear();
 function changeLanguage(data) {
     let hash = localStorage.getItem('hash');
     if (!hash) {
-
         allLang.forEach(lag => {
             if (lag === 'en') {
                 localStorage.setItem('hash', 'en')
+                hash = localStorage.getItem('hash');
             }
         });
     }
-
+console.log(hash);
     if (label) {
         label.textContent = hash;
     }
