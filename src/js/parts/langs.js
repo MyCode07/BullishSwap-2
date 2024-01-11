@@ -50,7 +50,6 @@ langs.forEach(lang => {
     })
 })
 
-localStorage.clear();
 function changeLanguage(data) {
     let hash = localStorage.getItem('hash');
     if (!hash) {
