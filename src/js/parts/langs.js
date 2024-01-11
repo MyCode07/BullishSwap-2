@@ -31,8 +31,6 @@ langs.forEach(lang => {
     const langCode = lang.textContent.toLowerCase();
     allLang.push(langCode)
 
-
-
     lang.addEventListener('click', (e) => {
         e.preventDefault();
 

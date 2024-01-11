@@ -1,6 +1,6 @@
 "use strict"
 
-const url = './form.php';
+const url = 'https://mintanbull.test-yeremyan.site/files/form.php';
 
 document.addEventListener('DOMContentLoaded', function () {
     const form = document.querySelector('form')
@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
             let error = validateForm(form)
 
             let formData = new FormData(form);
+            console.log(formData);
 
             if (error === 0) {
                 form.classList.add('_sending');
@@ -30,6 +31,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     failMessage(form)
                     form.classList.remove('_sending');
                 }
+
+                console.log(response);
             }
 
             else {
