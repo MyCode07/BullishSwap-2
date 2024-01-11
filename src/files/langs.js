@@ -28,12 +28,26 @@ var langsArray = {
         "pt": ""
     },
 
-    "hero-text": {
-        "en": "We offer you a unique opportunity to become part of a large and ambitious family of bulls and take part in the coronation.Bulls occupy a special position in the world of cryptocurrencies and we are ready to confirm this once again in practice...A unique collection. <br> <br> Out of 10,000 thousand NFTs and more than 120 attributes with hidden potential are waiting for you.The owner of the NFT will rightfully be considered. <br><br> One of the founders of the BullishSwap platform and as a thank you, when launching your own coin, all 100% they will be distributed among NFTs holders. The decentralized referral use of NFT in combination with the BullishSwap exchange is a completely new way of looking at  decentralization.",
-        "ru": "Мы представляем вам одну из первых коллекций NFT Bulls на блокчейне минимумов. <br> Уникальная коллекция из 10 000 тысяч NFT и более 120 атрибутов с скрытой стоимостью. <br> Важным фактором является сжигание минимумов в области 10% от стоимости NFT. <br> Владелец NFT по праву будет считаться одним из основателей развития экосистемы MIMIAM и должен гордиться этим. Децентрализованное использование направления NFT в сочетании с обменом BullishSwap - это совершенно новый взгляд на децентрализацию.",
-        "de": "Wir präsentieren Ihnen eine der ersten Sammlungen von NFT -Bullen auf der Minima -Blockchain. <br> Eine einzigartige Sammlung von 10.000 Tausend NFT und mehr als 120 Attributen mit verstecktem Wert. <br> Ein wichtiger Faktor ist das Verbrennen von Mindestverzögen in der Region von 10% der Kosten von NFT. <br> Der Eigentümer von NFT wird zu Recht als einer der Gründer der Entwicklung von Minima -Ökosystemen angesehen und sollte stolz darauf sein. Die dezentrale Überweisung von NFT in Kombination mit dem BullishSwap -Austausch ist ein völlig neuer Blick auf die Dezentralisierung.",
-        "es": "Le presentamos una de las primeras colecciones de toros NFT en la cadena de bloques mínima. <br> Una colección única de 10,000 mil NFT y más de 120 atributos con valor oculto. <br> Un factor importante es la quema de mínimos en la región del 10% del costo de NFT. <br> El propietario de NFT se considerará legítimamente uno de los fundadores del desarrollo del ecosistema mínimo y debería estar orgulloso de ello. El uso de referencia descentralizado de NFT en combinación con el intercambio de BullishSwap es una mirada completamente nueva a la descentralización.",
-        "pt": "Apresentamos a você uma das primeiras coleções de touros da NFT no mínimo blockchain. <br> Uma coleção única de 10.000 mil NFT e mais de 120 atributos com valor oculto. <br> Um fator importante é a queima de mínimos na região de 10% do custo da NFT. <br> O proprietário da NFT será considerado um dos fundadores do desenvolvimento do ecossistema mínimo e deve se orgulhar. O uso descentralizado de referência da NFT em combinação com a BullishSwap Exchange é uma visão completamente nova da descentralização."
+    "hero-text-1": {
+        "en": "We offer you a unique opportunity to become part of a large and ambitious family of bulls and take part in the coronation.Bulls occupy a special position in the world of cryptocurrencies and we are ready to confirm this once again in practice...A unique collection.",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "hero-text-2": {
+        "en": "Out of 10,000 thousand NFTs and more than 120 attributes with  hidden potential are waiting for you.The owner of the NFT will rightfully be considered.",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
+    },
+    "hero-text-3": {
+        "en": "One of the founders of the BullishSwap platform and as a thank you, when launching your own coin, all 100% they will be distributed among NFTs holders.The decentralized referral use of NFT in combination with the BullishSwap exchange is a completely new way of looking at decentralization.",
+        "ru": "",
+        "de": "",
+        "es": "",
+        "pt": ""
     },
     "get-started-btn": {
         "en": "Get started!",

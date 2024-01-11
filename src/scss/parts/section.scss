@@ -215,7 +215,6 @@
 
         @media (max-width: 992px) {
             height: 320px;
-            top: 40px;
         }
     }
 }
@@ -230,6 +229,7 @@
 
         @media (max-width: 992px) {
             text-align: center;
+            margin-top: 23px;
         }
     }
 
@@ -277,7 +277,7 @@
 
             @media (max-width: 992px) {
                 max-width: 100%;
-                padding-top: 26px;
+                @include adaptive-value("padding-top", 26, 0, 1);
             }
 
             p {
@@ -308,7 +308,7 @@
             @media (max-width: 992px) {
                 width: 100%;
                 margin-top: -35px;
-                margin-bottom: 16px;
+                margin-bottom: 0px;
             }
 
             img {

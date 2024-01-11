@@ -16,14 +16,15 @@ async function getLangs() {
 
 let allLang = [];
 const langsElem = document.querySelector('.multilanguage');
-const openBtn = langsElem.querySelector('button');
-const label = langsElem.querySelector('button label');
-const langs = langsElem.querySelectorAll('li a');
+const openBtn = document.querySelector('.multilanguage button');
+const label = document.querySelector('.multilanguage button label');
+const langs = document.querySelectorAll('.multilanguage li a');
 
-openBtn.addEventListener('click', (е) => {
-    langsElem.classList.toggle('_open');
-})
-
+if (openBtn) {
+    openBtn.addEventListener('click', (е) => {
+        langsElem.classList.toggle('_open');
+    })
+}
 
 langs.forEach(lang => {
     const langCode = lang.textContent.toLowerCase();
@@ -51,14 +52,15 @@ langs.forEach(lang => {
 
 
 
-
 function changeLanguage(data) {
     let hash = localStorage.getItem('hash');
     if (!hash) {
         localStorage.setItem('hash', allLang[0])
     }
 
-    label.textContent = hash;
+    if (label) {
+        label.textContent = hash;
+    }
 
     for (let key in data) {
         let elem = document.querySelector(`[data-ml="${key}"]`);
