@@ -91,7 +91,7 @@
         }
 
         @media (max-width: 768px) {
-            @include adaptive-value("left", 50, 8, 1);
+            @include adaptive-value("left", 50, 14, 1);
         }
 
         @media (max-width: 1141px) {
@@ -103,11 +103,11 @@
         }
 
         @media (max-width: 425px) {
-            @include adaptive-value("top", 850, 238, 1);
+            @include adaptive-value("top", 850, 237, 1);
         }
 
         @media (max-width: 320px) {
-            left: 25px;
+            left: 28px;
         }
 
         .countdown__item {
