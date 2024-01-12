@@ -60,15 +60,18 @@ function changeLanguage(data) {
             }
         });
     }
-    
+
     if (label) {
         label.textContent = hash;
     }
 
     for (let key in data) {
-        let elem = document.querySelector(`[data-ml="${key}"]`);
-        if (elem && data[key][hash]) {
-            elem.innerHTML = data[key][hash];
+        let elems = document.querySelectorAll(`[data-ml="${key}"]`);
+
+        if (elems.length && data[key][hash]) {
+            elems.forEach(el => {
+                el.innerHTML = data[key][hash];
+            })
         }
     }
 
