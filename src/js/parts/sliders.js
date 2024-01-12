@@ -15,8 +15,6 @@ if (sliders.length) {
                 ],
                 slidesPerView: 'auto',
                 spaceBetween: 32,
-                lazy: true,
-
                 pagination: {
                     el: pagination,
                     clickable: true
@@ -51,7 +49,6 @@ if (sliders.length) {
                     Pagination, Autoplay, EffectCoverflow
                 ],
 
-                loop: true,
                 slidesPerView: 5,
                 centeredSlides: true,
                 initialSlide: 2,
@@ -65,7 +62,6 @@ if (sliders.length) {
                     disableOnInteraction: false,
                 },
                 speed: 600,
-
 
                 breakpoints: {
                     300: {

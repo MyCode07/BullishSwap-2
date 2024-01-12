@@ -1,5 +1,6 @@
 .footer {
     position: relative;
+    @include adaptive-value("margin-top", 34, 28, 1);
 
     &:after {
         position: absolute;

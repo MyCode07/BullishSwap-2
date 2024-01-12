@@ -22,32 +22,32 @@ var langsArray = {
     },
     "hl-4": {
         "en": "Roadmap",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Roadmap",
+        "de": "Roadmap",
+        "es": "Roadmap",
+        "pt": "Roadmap"
     },
 
     "hero-text-1": {
         "en": "We offer you a unique opportunity to become part of a large and ambitious family of bulls and take part in the coronation.Bulls occupy a special position in the world of cryptocurrencies and we are ready to confirm this once again in practice...A unique collection.",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "We offer you a unique opportunity to become part of a large and ambitious family of bulls and take part in the coronation.Bulls occupy a special position in the world of cryptocurrencies and we are ready to confirm this once again in practice...A unique collection.",
+        "de": "We offer you a unique opportunity to become part of a large and ambitious family of bulls and take part in the coronation.Bulls occupy a special position in the world of cryptocurrencies and we are ready to confirm this once again in practice...A unique collection.",
+        "es": "We offer you a unique opportunity to become part of a large and ambitious family of bulls and take part in the coronation.Bulls occupy a special position in the world of cryptocurrencies and we are ready to confirm this once again in practice...A unique collection.",
+        "pt": "We offer you a unique opportunity to become part of a large and ambitious family of bulls and take part in the coronation.Bulls occupy a special position in the world of cryptocurrencies and we are ready to confirm this once again in practice...A unique collection."
     },
     "hero-text-2": {
         "en": "Out of 10,000 thousand NFTs and more than 120 attributes with  hidden potential are waiting for you.The owner of the NFT will rightfully be considered.",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Out of 10,000 thousand NFTs and more than 120 attributes with  hidden potential are waiting for you.The owner of the NFT will rightfully be considered.",
+        "de": "Out of 10,000 thousand NFTs and more than 120 attributes with  hidden potential are waiting for you.The owner of the NFT will rightfully be considered.",
+        "es": "Out of 10,000 thousand NFTs and more than 120 attributes with  hidden potential are waiting for you.The owner of the NFT will rightfully be considered.",
+        "pt": "Out of 10,000 thousand NFTs and more than 120 attributes with  hidden potential are waiting for you.The owner of the NFT will rightfully be considered."
     },
     "hero-text-3": {
         "en": "One of the founders of the BullishSwap platform and as a thank you, when launching your own coin, all 100% they will be distributed among NFTs holders.The decentralized referral use of NFT in combination with the BullishSwap exchange is a completely new way of looking at decentralization.",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "One of the founders of the BullishSwap platform and as a thank you, when launching your own coin, all 100% they will be distributed among NFTs holders.The decentralized referral use of NFT in combination with the BullishSwap exchange is a completely new way of looking at decentralization.",
+        "de": "One of the founders of the BullishSwap platform and as a thank you, when launching your own coin, all 100% they will be distributed among NFTs holders.The decentralized referral use of NFT in combination with the BullishSwap exchange is a completely new way of looking at decentralization.",
+        "es": "One of the founders of the BullishSwap platform and as a thank you, when launching your own coin, all 100% they will be distributed among NFTs holders.The decentralized referral use of NFT in combination with the BullishSwap exchange is a completely new way of looking at decentralization.",
+        "pt": "One of the founders of the BullishSwap platform and as a thank you, when launching your own coin, all 100% they will be distributed among NFTs holders.The decentralized referral use of NFT in combination with the BullishSwap exchange is a completely new way of looking at decentralization."
     },
     "get-started-btn": {
         "en": "Get started!",
@@ -107,248 +107,248 @@ var langsArray = {
     },
     "roadmap-title": {
         "en": "roadmap",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "roadmap",
+        "de": "roadmap",
+        "es": "roadmap",
+        "pt": "roadmap"
     },
     "roadmap-stage-1": {
         "en": "1 stage",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "1 stage",
+        "de": "1 stage",
+        "es": "1 stage",
+        "pt": "1 stage"
     },
     "roadmap-stage-1-span-1": {
         "en": "Launch of NFT BullishSwap (BSNFTs)",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Launch of NFT BullishSwap (BSNFTs)",
+        "de": "Launch of NFT BullishSwap (BSNFTs)",
+        "es": "Launch of NFT BullishSwap (BSNFTs)",
+        "pt": "Launch of NFT BullishSwap (BSNFTs)"
     },
     "roadmap-stage-1-span-2": {
         "en": "Coronation of NFTs Bullish (MINT)",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Coronation of NFTs Bullish (MINT)",
+        "de": "Coronation of NFTs Bullish (MINT)",
+        "es": "Coronation of NFTs Bullish (MINT)",
+        "pt": "Coronation of NFTs Bullish (MINT)"
     },
     "roadmap-stage-1-span-3": {
         "en": "Launch of the referral system",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Launch of the referral system",
+        "de": "Launch of the referral system",
+        "es": "Launch of the referral system",
+        "pt": "Launch of the referral system"
     },
     "roadmap-stage-1-span-4": {
         "en": "NFTs Draw",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "NFTs Draw",
+        "de": "NFTs Draw",
+        "es": "NFTs Draw",
+        "pt": "NFTs Draw"
     },
     "roadmap-stage-1-span-5": {
         "en": "Marketing cooperation",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Marketing cooperation",
+        "de": "Marketing cooperation",
+        "es": "Marketing cooperation",
+        "pt": "Marketing cooperation"
     },
     "roadmap-stage-2": {
         "en": "2 stage",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "2 stage",
+        "de": "2 stage",
+        "es": "2 stage",
+        "pt": "2 stage"
     },
     "roadmap-stage-2-span-1": {
         "en": "Testing and debugging of smart contracts",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Testing and debugging of smart contracts",
+        "de": "Testing and debugging of smart contracts",
+        "es": "Testing and debugging of smart contracts",
+        "pt": "Testing and debugging of smart contracts"
     },
     "roadmap-stage-2-span-2": {
         "en": "Closed testing of DEX BullishSwap",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Closed testing of DEX BullishSwap",
+        "de": "Closed testing of DEX BullishSwap",
+        "es": "Closed testing of DEX BullishSwap",
+        "pt": "Closed testing of DEX BullishSwap"
     },
     "roadmap-stage-2-span-3": {
         "en": "Public testing of DEX BullishSwap",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Public testing of DEX BullishSwap",
+        "de": "Public testing of DEX BullishSwap",
+        "es": "Public testing of DEX BullishSwap",
+        "pt": "Public testing of DEX BullishSwap"
     },
     "roadmap-stage-2-span-4": {
         "en": "Gamma testing of DEX BullishSwap",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Gamma testing of DEX BullishSwap",
+        "de": "Gamma testing of DEX BullishSwap",
+        "es": "Gamma testing of DEX BullishSwap",
+        "pt": "Gamma testing of DEX BullishSwap"
     },
     "roadmap-stage-2-span-5": {
         "en": "Collaboration with influential people, marketing companies and platforms on an ongoing basis.Mass implementation.",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Collaboration with influential people, marketing companies and platforms on an ongoing basis.Mass implementation.",
+        "de": "Collaboration with influential people, marketing companies and platforms on an ongoing basis.Mass implementation.",
+        "es": "Collaboration with influential people, marketing companies and platforms on an ongoing basis.Mass implementation.",
+        "pt": "Collaboration with influential people, marketing companies and platforms on an ongoing basis.Mass implementation."
     },
     "roadmap-stage-2-span-6": {
         "en": "Collaboration with influential people, marketing companies and platforms on an ongoing  basis.Mass implementation.",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Collaboration with influential people, marketing companies and platforms on an ongoing  basis.Mass implementation.",
+        "de": "Collaboration with influential people, marketing companies and platforms on an ongoing  basis.Mass implementation.",
+        "es": "Collaboration with influential people, marketing companies and platforms on an ongoing  basis.Mass implementation.",
+        "pt": "Collaboration with influential people, marketing companies and platforms on an ongoing  basis.Mass implementation."
     },
     "roadmap-stage-2-span-7": {
         "en": "Launch of the DEX BullishSwap referral system",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Launch of the DEX BullishSwap referral system",
+        "de": "Launch of the DEX BullishSwap referral system",
+        "es": "Launch of the DEX BullishSwap referral system",
+        "pt": "Launch of the DEX BullishSwap referral system"
     },
     "roadmap-stage-2-span-8": {
         "en": "Launching DEX BullishSwap",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Launching DEX BullishSwap",
+        "de": "Launching DEX BullishSwap",
+        "es": "Launching DEX BullishSwap",
+        "pt": "Launching DEX BullishSwap"
     },
     "roadmap-stage-3": {
         "en": "3 stage",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "3 stage",
+        "de": "3 stage",
+        "es": "3 stage",
+        "pt": "3 stage"
     },
     "roadmap-stage-3-span-1": {
         "en": "Testing and debugging of smart contracts",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Testing and debugging of smart contracts",
+        "de": "Testing and debugging of smart contracts",
+        "es": "Testing and debugging of smart contracts",
+        "pt": "Testing and debugging of smart contracts"
     },
     "roadmap-stage-3-span-2": {
         "en": "Testing the launch pad for launching tokens",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Testing the launch pad for launching tokens",
+        "de": "Testing the launch pad for launching tokens",
+        "es": "Testing the launch pad for launching tokens",
+        "pt": "Testing the launch pad for launching tokens"
     },
     "roadmap-stage-3-span-3": {
         "en": "Launch of a launch pad for launching tokens",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Launch of a launch pad for launching tokens",
+        "de": "Launch of a launch pad for launching tokens",
+        "es": "Launch of a launch pad for launching tokens",
+        "pt": "Launch of a launch pad for launching tokens"
     },
     "roadmap-stage-3-span-4": {
         "en": "Integration of influencers into the platform",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Integration of influencers into the platform",
+        "de": "Integration of influencers into the platform",
+        "es": "Integration of influencers into the platform",
+        "pt": "Integration of influencers into the platform"
     },
     "influence-title": {
         "en": "influence",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "influence",
+        "de": "influence",
+        "es": "influence",
+        "pt": "influence"
     },
     "influence-text": {
         "en": "These are unique NFTs in the collection in a single copy that are intended for these people, as a thank you for the work they have done and their active participation in the development of blockchain technologies, as well  as for all possible   support",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "These are unique NFTs in the collection in a single copy that are intended for these people, as a thank you for the work they have done and their active participation in the development of blockchain technologies, as well  as for all possible   support",
+        "de": "These are unique NFTs in the collection in a single copy that are intended for these people, as a thank you for the work they have done and their active participation in the development of blockchain technologies, as well  as for all possible   support",
+        "es": "These are unique NFTs in the collection in a single copy that are intended for these people, as a thank you for the work they have done and their active participation in the development of blockchain technologies, as well  as for all possible   support",
+        "pt": "These are unique NFTs in the collection in a single copy that are intended for these people, as a thank you for the work they have done and their active participation in the development of blockchain technologies, as well  as for all possible   support"
     },
     "coronation-title": {
         "en": "coronation",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "coronation",
+        "de": "coronation",
+        "es": "coronation",
+        "pt": "coronation"
     },
     "coronation-h3": {
         "en": "The coronation <br> of the Bulls: <br> 0017 / 10000",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
-    }, 
+        "ru": "The coronation <br> of the Bulls: <br> 0017 / 10000",
+        "de": "The coronation <br> of the Bulls: <br> 0017 / 10000",
+        "es": "The coronation <br> of the Bulls: <br> 0017 / 10000",
+        "pt": "The coronation <br> of the Bulls: <br> 0017 / 10000"
+    },
     "launch-btn-text": {
         "en": "Launch:",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Launch:",
+        "de": "Launch:",
+        "es": "Launch:",
+        "pt": "Launch:"
     },
     "coronation-btn-text": {
         "en": "Connect Wallet",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Connect Wallet",
+        "de": "Connect Wallet",
+        "es": "Connect Wallet",
+        "pt": "Connect Wallet"
     },
     "coronation-text": {
         "en": "Current price: 0,025 ETH <br><a href='terms-conditions.html' target='_blank'> Terms & Conditions</a>",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Current price: 0,025 ETH <br><a href='terms-conditions.html' target='_blank'> Terms & Conditions</a>",
+        "de": "Current price: 0,025 ETH <br><a href='terms-conditions.html' target='_blank'> Terms & Conditions</a>",
+        "es": "Current price: 0,025 ETH <br><a href='terms-conditions.html' target='_blank'> Terms & Conditions</a>",
+        "pt": "Current price: 0,025 ETH <br><a href='terms-conditions.html' target='_blank'> Terms & Conditions</a>"
     },
     "referal-title": {
         "en": "REFFERAL PROGRAM",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "REFFERAL PROGRAM",
+        "de": "REFFERAL PROGRAM",
+        "es": "REFFERAL PROGRAM",
+        "pt": "REFFERAL PROGRAM"
     },
     "referal-reward": {
         "en": "reward",
         "ru": "Вознаграждение",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "de": "reward",
+        "es": "reward",
+        "pt": "reward"
     },
     "referal-sale": {
         "en": "Sale",
         "ru": "Скидка для рефералов:",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "de": "Sale",
+        "es": "Sale",
+        "pt": "Sale"
     },
     "referal-text": {
-        "en": "Если Вы являетесь влиятельным человеком, мы можем предложить индивидуальную реферальную программу, просто напишите <a href = ''>parthnership@bullishswap.app</a> ",
+        "en": "Если Вы являетесь влиятельным человеком, мы можем предложить индивидуальную реферальную программу, просто напишите <a href = ''>parthnership@bullishswap.app</a>",
         "ru": "Если Вы являетесь влиятельным человеком, мы можем предложить индивидуальную реферальную программу, просто напишите <a href = ''>parthnership@bullishswap.app</a>",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "de": "Если Вы являетесь влиятельным человеком, мы можем предложить индивидуальную реферальную программу, просто напишите <a href = ''>parthnership@bullishswap.app</a>",
+        "es": "Если Вы являетесь влиятельным человеком, мы можем предложить индивидуальную реферальную программу, просто напишите <a href = ''>parthnership@bullishswap.app</a>",
+        "pt": "Если Вы являетесь влиятельным человеком, мы можем предложить индивидуальную реферальную программу, просто напишите <a href = ''>parthnership@bullishswap.app</a>"
     },
     "referal-copy-btn": {
         "en": "COPY REFERRAL LINK",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "COPY REFERRAL LINK",
+        "de": "COPY REFERRAL LINK",
+        "es": "COPY REFERRAL LINK",
+        "pt": "COPY REFERRAL LINK"
     },
     "referal-send-btn": {
         "en": "send",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "send",
+        "de": "send",
+        "es": "send",
+        "pt": "send"
     },
     "referal-title": {
         "en": "PRICE CHART",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "PRICE CHART",
+        "de": "PRICE CHART",
+        "es": "PRICE CHART",
+        "pt": "PRICE CHART"
     },
     "faq-question-1": {
         "en": "HOW DO I BECOME AN NFT OWNER?",
@@ -359,10 +359,10 @@ var langsArray = {
     },
     "faq-answer-1": {
         "en": "- You need to connect a wallet on the ETH network. <br>  - Make sure that there is enough ETH in your wallet according to the cost of the NFT and the gas price. <br> - If all of the above meets the requirements, you can purchase an NFT.",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "- You need to connect a wallet on the ETH network. <br>  - Make sure that there is enough ETH in your wallet according to the cost of the NFT and the gas price. <br> - If all of the above meets the requirements, you can purchase an NFT.",
+        "de": "- You need to connect a wallet on the ETH network. <br>  - Make sure that there is enough ETH in your wallet according to the cost of the NFT and the gas price. <br> - If all of the above meets the requirements, you can purchase an NFT.",
+        "es": "- You need to connect a wallet on the ETH network. <br>  - Make sure that there is enough ETH in your wallet according to the cost of the NFT and the gas price. <br> - If all of the above meets the requirements, you can purchase an NFT.",
+        "pt": "- You need to connect a wallet on the ETH network. <br>  - Make sure that there is enough ETH in your wallet according to the cost of the NFT and the gas price. <br> - If all of the above meets the requirements, you can purchase an NFT."
     },
     "faq-question-2": {
         "en": "HOW TO AVOID FRAUD?",
@@ -373,10 +373,10 @@ var langsArray = {
     },
     "faq-answer-2": {
         "en": "<span>It is quite possible that a large amount of fraud is being activated, so  be careful and careful!</span>  <br><br> - Always check the site and social networks for authenticity, make sure that you are in a safe place.<br>- Follow the news only from the official sources of the BullishSwap project.<br>  - Do not click on the links to purchase NFT BullishSwap.We have only one  website bullishswap.app! <br>  - Do not try to buy NFT from someone directly until a specialized platform is implemented, you may fall into the hands   of scammers.<br> - We do not have technical support and we will never be the first to write. If someone wrote to you with a suggestion, then these are scammers, block it and report it in our Telegram channel t.me / bullishswap in the 'SCAMMERS' section.<br> ",
-        "ru": "s",
-        "de": "s",
-        "es": "s",
-        "pt": "s"
+        "ru": "<span>It is quite possible that a large amount of fraud is being activated, so  be careful and careful!</span>  <br><br> - Always check the site and social networks for authenticity, make sure that you are in a safe place.<br>- Follow the news only from the official sources of the BullishSwap project.<br>  - Do not click on the links to purchase NFT BullishSwap.We have only one  website bullishswap.app! <br>  - Do not try to buy NFT from someone directly until a specialized platform is implemented, you may fall into the hands   of scammers.<br> - We do not have technical support and we will never be the first to write. If someone wrote to you with a suggestion, then these are scammers, block it and report it in our Telegram channel t.me / bullishswap in the 'SCAMMERS' section.<br>",
+        "de": "<span>It is quite possible that a large amount of fraud is being activated, so  be careful and careful!</span>  <br><br> - Always check the site and social networks for authenticity, make sure that you are in a safe place.<br>- Follow the news only from the official sources of the BullishSwap project.<br>  - Do not click on the links to purchase NFT BullishSwap.We have only one  website bullishswap.app! <br>  - Do not try to buy NFT from someone directly until a specialized platform is implemented, you may fall into the hands   of scammers.<br> - We do not have technical support and we will never be the first to write. If someone wrote to you with a suggestion, then these are scammers, block it and report it in our Telegram channel t.me / bullishswap in the 'SCAMMERS' section.<br>",
+        "es": "<span>It is quite possible that a large amount of fraud is being activated, so  be careful and careful!</span>  <br><br> - Always check the site and social networks for authenticity, make sure that you are in a safe place.<br>- Follow the news only from the official sources of the BullishSwap project.<br>  - Do not click on the links to purchase NFT BullishSwap.We have only one  website bullishswap.app! <br>  - Do not try to buy NFT from someone directly until a specialized platform is implemented, you may fall into the hands   of scammers.<br> - We do not have technical support and we will never be the first to write. If someone wrote to you with a suggestion, then these are scammers, block it and report it in our Telegram channel t.me / bullishswap in the 'SCAMMERS' section.<br>",
+        "pt": "<span>It is quite possible that a large amount of fraud is being activated, so  be careful and careful!</span>  <br><br> - Always check the site and social networks for authenticity, make sure that you are in a safe place.<br>- Follow the news only from the official sources of the BullishSwap project.<br>  - Do not click on the links to purchase NFT BullishSwap.We have only one  website bullishswap.app! <br>  - Do not try to buy NFT from someone directly until a specialized platform is implemented, you may fall into the hands   of scammers.<br> - We do not have technical support and we will never be the first to write. If someone wrote to you with a suggestion, then these are scammers, block it and report it in our Telegram channel t.me / bullishswap in the 'SCAMMERS' section.<br>"
     },
     "faq-question-3": {
         "en": "WHERE CAN I GET RELIABLE INFORMATION ABOUT THE PROJECT?",
@@ -387,38 +387,38 @@ var langsArray = {
     },
     "faq-answer-3": {
         "en": "<span>All reliable information is published on social networks:</span><br><br> 1. Telegram - t.me/bullishswap <br> 2. Twitter - x.com/bullishswap <br> 3. Discord - discord.gg/JWdSQ3kN6K <br> 4. Youtube - youtube.com/@bullishswa <br> 5. GitHub - github.com/bullishswap",
-        "ru": "текст тексттекст текст текст текст текст",
-        "de": "texto Textext Texto Texto Texto Texto",
-        "es": "texto Textext Texto Texto Texto Texto",
-        "pt": "texto texto texttext text text text text text"
+        "ru": "<span>All reliable information is published on social networks:</span><br><br> 1. Telegram - t.me/bullishswap <br> 2. Twitter - x.com/bullishswap <br> 3. Discord - discord.gg/JWdSQ3kN6K <br> 4. Youtube - youtube.com/@bullishswa <br> 5. GitHub - github.com/bullishswap",
+        "de": "<span>All reliable information is published on social networks:</span><br><br> 1. Telegram - t.me/bullishswap <br> 2. Twitter - x.com/bullishswap <br> 3. Discord - discord.gg/JWdSQ3kN6K <br> 4. Youtube - youtube.com/@bullishswa <br> 5. GitHub - github.com/bullishswap",
+        "es": "<span>All reliable information is published on social networks:</span><br><br> 1. Telegram - t.me/bullishswap <br> 2. Twitter - x.com/bullishswap <br> 3. Discord - discord.gg/JWdSQ3kN6K <br> 4. Youtube - youtube.com/@bullishswa <br> 5. GitHub - github.com/bullishswap",
+        "pt": "<span>All reliable information is published on social networks:</span><br><br> 1. Telegram - t.me/bullishswap <br> 2. Twitter - x.com/bullishswap <br> 3. Discord - discord.gg/JWdSQ3kN6K <br> 4. Youtube - youtube.com/@bullishswa <br> 5. GitHub - github.com/bullishswap"
     },
     "faq-question-4": {
         "en": "How do I get a referral link?",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "How do I get a referral link?",
+        "de": "How do I get a referral link?",
+        "es": "How do I get a referral link?",
+        "pt": "How do I get a referral link?"
     },
     "faq-answer-4": {
         "en": "After purchasing the NFT, your personal link will be activated, which you can copy in the Coronation section With each purchase from your referral link, you will receive 10% of the  reward and your customer will receive a 10% discount",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "After purchasing the NFT, your personal link will be activated, which you can copy in the Coronation section With each purchase from your referral link, you will receive 10% of the  reward and your customer will receive a 10% discount",
+        "de": "After purchasing the NFT, your personal link will be activated, which you can copy in the Coronation section With each purchase from your referral link, you will receive 10% of the  reward and your customer will receive a 10% discount",
+        "es": "After purchasing the NFT, your personal link will be activated, which you can copy in the Coronation section With each purchase from your referral link, you will receive 10% of the  reward and your customer will receive a 10% discount",
+        "pt": "After purchasing the NFT, your personal link will be activated, which you can copy in the Coronation section With each purchase from your referral link, you will receive 10% of the  reward and your customer will receive a 10% discount"
     },
     "faq-question-5": {
         "en": "PARTNERSHIP",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "PARTNERSHIP",
+        "de": "PARTNERSHIP",
+        "es": "PARTNERSHIP",
+        "pt": "PARTNERSHIP"
     },
     "faq-answer-5": {
         "en": "If you are an influential person and have your own social media channels on this topic, we are ready to offer you  individual referral cooperation, just write to us.",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "If you are an influential person and have your own social media channels on this topic, we are ready to offer you  individual referral cooperation, just write to us.",
+        "de": "If you are an influential person and have your own social media channels on this topic, we are ready to offer you  individual referral cooperation, just write to us.",
+        "es": "If you are an influential person and have your own social media channels on this topic, we are ready to offer you  individual referral cooperation, just write to us.",
+        "pt": "If you are an influential person and have your own social media channels on this topic, we are ready to offer you  individual referral cooperation, just write to us."
     },
     "faq-question-6": {
         "en": "Ask a question",
@@ -429,24 +429,24 @@ var langsArray = {
     },
     "faq-answer-6": {
         "en": "Do you have a question? ask it here and we will send a reply to your email",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Do you have a question? ask it here and we will send a reply to your email",
+        "de": "Do you have a question? ask it here and we will send a reply to your email",
+        "es": "Do you have a question? ask it here and we will send a reply to your email",
+        "pt": "Do you have a question? ask it here and we will send a reply to your email"
     },
     "send-btn": {
         "en": "Send",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Send",
+        "de": "Send",
+        "es": "Send",
+        "pt": "Send"
     },
     "fl-1": {
         "en": "Collection",
-        "ru": "",
-        "de": "r",
-        "es": "",
-        "pt": ""
+        "ru": "Collection",
+        "de": "Collection",
+        "es": "Collection",
+        "pt": "Collection"
     },
     "fl-2": {
         "en": "Labs",
@@ -464,17 +464,17 @@ var langsArray = {
     },
     "fl-4": {
         "en": "Roadmap",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "ru": "Roadmap",
+        "de": "Roadmap",
+        "es": "Roadmap",
+        "pt": "Roadmap"
     },
     "all-rights": {
-        "en": "All Rights Reserved © Uncnown Tournament <br><a href='terms-conditions.html'>Terms & Conditions</a> ",
-        "ru": "",
-        "de": "",
-        "es": "",
-        "pt": ""
+        "en": "All Rights Reserved © Uncnown Tournament <br><a href='terms-conditions.html'>Terms & Conditions</a>",
+        "ru": "All Rights Reserved © Uncnown Tournament <br><a href='terms-conditions.html'>Terms & Conditions</a>",
+        "de": "All Rights Reserved © Uncnown Tournament <br><a href='terms-conditions.html'>Terms & Conditions</a>",
+        "es": "All Rights Reserved © Uncnown Tournament <br><a href='terms-conditions.html'>Terms & Conditions</a>",
+        "pt": "All Rights Reserved © Uncnown Tournament <br><a href='terms-conditions.html'>Terms & Conditions</a>"
     },
     "popup-btn": {
         "en": "Ask a question",

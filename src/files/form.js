@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
             let formData = new FormData(form);
             console.log(formData);
 
+
             if (error === 0) {
                 form.classList.add('_sending');
 
