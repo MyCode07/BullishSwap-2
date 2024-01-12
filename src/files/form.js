@@ -1,6 +1,7 @@
 "use strict"
 
-const url = 'https://mintanbull.test-yeremyan.site/files/form.php';
+// так : https://bullishswap.app/
+const url = 'https://bullishswap.app/';
 
 document.addEventListener('DOMContentLoaded', function () {
     const form = document.querySelector('form')
@@ -18,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (error === 0) {
                 form.classList.add('_sending');
 
-                let response = await fetch(url, {
+                let response = await fetch(url + 'files/form.php', {
                     method: 'POST',
                     body: formData
                 });
