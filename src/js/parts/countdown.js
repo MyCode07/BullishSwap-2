@@ -1,4 +1,5 @@
 const clockElems = document.querySelectorAll('.countdown');
+const coronationBtn =document.querySelector('.coronation-btn');
 
 
 
@@ -54,6 +55,12 @@ function initializeClock(clock) {
 
             if (t.total <= 0) {
                 clearInterval(timeinterval);
+                console.log(t.total);
+                coronationBtn.classList.remove('coronation-btn')
+                coronationBtn.classList.toggle('_button')
+                coronationBtn.querySelector('label').dataset.ml = "coronation-btn-text";
+                coronationBtn.querySelector('label').innerHTML = 'Connect Wallet'
+                coronationBtn.querySelector('label').dataset.ml = "coronation-btn-text";
             }
 
             // if (t.total <= 100000000) {
@@ -72,6 +79,12 @@ function initializeClock(clock) {
         let timeinterval = setInterval(updateClock, 1000);
 
         updateClock();
+    } else {
+        coronationBtn.classList.remove('coronation-btn')
+        coronationBtn.classList.toggle('_button')
+        coronationBtn.querySelector('label').dataset.ml = "coronation-btn-text";
+        coronationBtn.querySelector('label').innerHTML = 'Connect Wallet'
+        coronationBtn.querySelector('label').dataset.ml = "coronation-btn-text";
     }
 }
 
