@@ -1,15 +1,16 @@
 .header {
-    position: absolute;
-    right: 206px;
     width: 294px;
     height: fit-content;
     z-index: 99;
     border: 2px solid #000;
     background: #e7e7e7;
+
+    position: absolute;
     top: 20vw;
+    right: 9vw;
 
     @media (max-width: 1560px) {
-        right: 40px;
+        right: 7vw;
     }
 
     @media (max-width: 1200px) {
