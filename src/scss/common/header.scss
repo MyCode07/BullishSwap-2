@@ -1,12 +1,12 @@
 .header {
     position: absolute;
-    top: 40%;
     right: 206px;
     width: 294px;
     height: fit-content;
     z-index: 99;
     border: 2px solid #000;
     background: #e7e7e7;
+    top: 20vw;
 
     @media (max-width: 1560px) {
         right: 40px;
