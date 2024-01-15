@@ -16,25 +16,25 @@
     // $mail->SMTPAuth = true; // Включаем SMTP аутентификацию
     // // Настройки вашей почты (взять у провайдера)
     // $mail->Host = 'smtp.mail.ru';  // SMTP сервер
-    // $mail->Username = 'erem151999@mail.ru'; // Ваш логин от почты с которой будут отправляться письма
-    // $mail->Password = 'EXISHIK14'; // Ваш пароль от почты с которой будут отправляться письма
+    // $mail->Username = 'email@mail.ru'; // Ваш логин от почты с которой будут отправляться письма
+    // $mail->Password = '***'; // Ваш пароль от почты с которой будут отправляться письма
     // $mail->SMTPSecure = 'ssl';  // Протокол шифрования SSL или TLS
     // $mail->Port = 465; // TCP порт для подключения
 
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['msg'];
-    $email_to_send = $_POST['emal-to-send'];
+    $email_to_send = $_POST['email-to-send'];
     
 	
-	$mail->setFrom('erem151999@mail.ru'); //От кого письмо
-	$mail->addAddress('erem19992015@mail.ru'); //Кому отправить
+	$mail->setFrom('ttyrqa@mail.ru'); //От кого письмо
+	$mail->addAddress('ttyrqa@mail.ru'); //Кому отправить
+    $mail->addAddress($email_to_send); //Категория
 
-    // $mail->addAddress($email_to_send);               
     // $mail->addReplyTo($email_to_send, 'Information');
 	
-	$mail->Subject = 'Новое письмо'; //Тема письма
-	$body = '<h1>Новое письмо с сайта example.ru!</h1>'; // Тело письма
+	$mail->Subject = 'BullishSwap!'; //Тема письма
+	$body = '<h1></h1>'; // Тело письма
 
     $arr = array(
         'Имя' => $name,

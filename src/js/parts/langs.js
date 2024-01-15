@@ -68,11 +68,17 @@ function changeLanguage(data) {
     for (let key in data) {
         let elems = document.querySelectorAll(`[data-ml="${key}"]`);
 
-        if (elems.length && data[key][hash]) {
+        if (elems.length) {
             elems.forEach(el => {
-                el.innerHTML = data[key][hash];
+                if (data[key][hash]) {
+                    el.innerHTML = data[key][hash];
+                }
+                else {
+                    el.innerHTML = data[key]['en'];
+                }
             })
         }
+
     }
 
     langs.forEach(item => {

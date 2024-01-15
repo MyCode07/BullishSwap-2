@@ -1,10 +1,12 @@
 var langsArray = {
     "hl-1": {
         "en": "Collection",
-        "ru": "Collection",
-        "de": "Collection",
-        "es": "Collection",
-        "pt": "Collection"
+        "ru": "Коллекция",
+        "de": "Collection ahtung",
+        "es": "Collection es",
+        "pt": "Collection pt",
+        'tr': 'Collection  tr',
+        'ch': 'Collection асдасдасд chhh',
     },
     "hl-2": {
         "en": "Labs",
@@ -274,7 +276,7 @@ var langsArray = {
         "pt": "coronation"
     },
     "coronation-h3": {
-        "en": "The coronation <br> of the Bulls: <br> 0017 / 10000",
+        "en": "The coronation <br> of the Bulls: <br> 0 / 10000",
         "ru": "The coronation <br> of the Bulls: <br> 0017 / 10000",
         "de": "The coronation <br> of the Bulls: <br> 0017 / 10000",
         "es": "The coronation <br> of the Bulls: <br> 0017 / 10000",
@@ -295,11 +297,11 @@ var langsArray = {
         "pt": "Connect Wallet"
     },
     "coronation-text": {
-        "en": "Current price: 0,025 ETH <br><a href='terms-conditions.html' target='_blank'> Terms & Conditions</a>",
-        "ru": "Current price: 0,025 ETH <br><a href='terms-conditions.html' target='_blank'> Terms & Conditions</a>",
-        "de": "Current price: 0,025 ETH <br><a href='terms-conditions.html' target='_blank'> Terms & Conditions</a>",
-        "es": "Current price: 0,025 ETH <br><a href='terms-conditions.html' target='_blank'> Terms & Conditions</a>",
-        "pt": "Current price: 0,025 ETH <br><a href='terms-conditions.html' target='_blank'> Terms & Conditions</a>"
+        "en": "Current price: 0,025 ETH <br><a href='terms.html' target='_blank'> Terms & Conditions</a>",
+        "ru": "Current price: 0,025 ETH <br><a href='terms.html' target='_blank'> Terms & Conditions</a>",
+        "de": "Current price: 0,025 ETH <br><a href='terms.html' target='_blank'> Terms & Conditions</a>",
+        "es": "Current price: 0,025 ETH <br><a href='terms.html' target='_blank'> Terms & Conditions</a>",
+        "pt": "Current price: 0,025 ETH <br><a href='terms.html' target='_blank'> Terms & Conditions</a>"
     },
     "referal-title": {
         "en": "REFFERAL PROGRAM",
@@ -309,29 +311,29 @@ var langsArray = {
         "pt": "REFFERAL PROGRAM"
     },
     "referal-reward": {
-        "en": "reward",
+        "en": "Discount for your referrals:",
         "ru": "Вознаграждение",
-        "de": "reward",
-        "es": "reward",
-        "pt": "reward"
+        "de": "Reward",
+        "es": "Discount for your referrals:",
+        "pt": "Discount for your referrals:"
     },
     "referal-sale": {
-        "en": "Sale",
+        "en": "Referral income:",
         "ru": "Скидка для рефералов:",
         "de": "Sale",
         "es": "Sale",
         "pt": "Sale"
     },
     "referal-text": {
-        "en": "Если Вы являетесь влиятельным человеком, мы можем предложить индивидуальную реферальную программу, просто напишите <a href = ''>parthnership@bullishswap.app</a>",
-        "ru": "Если Вы являетесь влиятельным человеком, мы можем предложить индивидуальную реферальную программу, просто напишите <a href = ''>parthnership@bullishswap.app</a>",
-        "de": "Если Вы являетесь влиятельным человеком, мы можем предложить индивидуальную реферальную программу, просто напишите <a href = ''>parthnership@bullishswap.app</a>",
-        "es": "Если Вы являетесь влиятельным человеком, мы можем предложить индивидуальную реферальную программу, просто напишите <a href = ''>parthnership@bullishswap.app</a>",
-        "pt": "Если Вы являетесь влиятельным человеком, мы можем предложить индивидуальную реферальную программу, просто напишите <a href = ''>parthnership@bullishswap.app</a>"
+        "en": "If you are an influential person, we can offer an individual referral program, just write parthnership@bullishswap.app",
+        "ru": "Если Вы являетесь влиятельным человеком, мы можем предложить индивидуальную реферальную программу, просто напишите",
+        "de": "Если Вы являетесь влиятельным человеком, мы можем предложить индивидуальную реферальную программу, просто напишите",
+        "es": "Если Вы являетесь влиятельным человеком, мы можем предложить индивидуальную реферальную программу, просто напишите",
+        "pt": "Если Вы являетесь влиятельным человеком, мы можем предложить индивидуальную реферальную программу, просто напишите"
     },
     "referal-copy-btn": {
         "en": "COPY REFERRAL LINK",
-        "ru": "COPY REFERRAL LINK",
+        "ru": "Реф программа",
         "de": "COPY REFERRAL LINK",
         "es": "COPY REFERRAL LINK",
         "pt": "COPY REFERRAL LINK"
@@ -470,11 +472,11 @@ var langsArray = {
         "pt": "Roadmap"
     },
     "all-rights": {
-        "en": "All Rights Reserved © Uncnown Tournament <br><a href='terms-conditions.html'>Terms & Conditions</a>",
-        "ru": "All Rights Reserved © Uncnown Tournament <br><a href='terms-conditions.html'>Terms & Conditions</a>",
-        "de": "All Rights Reserved © Uncnown Tournament <br><a href='terms-conditions.html'>Terms & Conditions</a>",
-        "es": "All Rights Reserved © Uncnown Tournament <br><a href='terms-conditions.html'>Terms & Conditions</a>",
-        "pt": "All Rights Reserved © Uncnown Tournament <br><a href='terms-conditions.html'>Terms & Conditions</a>"
+        "en": "All Rights Reserved © BullishSwap <br><a href='terms.html'>Terms & Conditions</a>",
+        "ru": "All Rights Reserved © BullishSwap <br><a href='terms.html'>Terms & Conditions</a>",
+        "de": "All Rights Reserved © BullishSwap <br><a href='terms.html'>Terms & Conditions</a>",
+        "es": "All Rights Reserved © BullishSwap <br><a href='terms.html'>Terms & Conditions</a>",
+        "pt": "All Rights Reserved © BullishSwap <br><a href='terms.html'>Terms & Conditions</a>"
     },
     "popup-btn": {
         "en": "Ask a question",

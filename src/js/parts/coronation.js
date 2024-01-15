@@ -5,7 +5,8 @@ let plusBtn = document.querySelector('.plus');
 
 if (minusBtn) {
     let countNum = 0;
-    count.innerHTML = countNum;
+    const max = +count.max;
+    const min = +count.min;
 
     minusBtn.addEventListener("click", () => {
         if (countNum >= 1) {
@@ -13,11 +14,10 @@ if (minusBtn) {
             count.value = countNum;
             count.placeholder = countNum;
             plusBtn.style.pointerEvents = 'all';
-        } if (countNum === 0) {
+        }
+        if (countNum === min) {
             minusBtn.style.pointerEvents = 'none';
         }
-
-
     });
 
     plusBtn.addEventListener("click", () => {
@@ -26,9 +26,10 @@ if (minusBtn) {
         count.value = countNum;
         minusBtn.style.pointerEvents = 'all';
 
-        if (countNum === 3) {
+        if (countNum === max) {
             plusBtn.style.pointerEvents = 'none';
-        } else {
+        }
+        else {
             plusBtn.style.pointerEvents = 'all';
         }
     });
