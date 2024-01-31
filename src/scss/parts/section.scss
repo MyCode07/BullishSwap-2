@@ -388,7 +388,6 @@
 
     ol {
         display: flex;
-        align-items: center;
         gap: 32px;
 
         @media (max-width: 992px) {
@@ -397,17 +396,26 @@
             gap: 20px;
         }
 
+        & > :nth-child(1),
+        & > :nth-child(3) {
+            @media (min-width: 993px) {
+                margin-top: 32px;
+                margin-bottom: 32px;
+            }
+        }
+
         li {
             padding: 30px;
             border-radius: 24px;
             border: 2px solid #fff;
             background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 100%),
                 rgba(0, 0, 0, 0.9);
-            min-height: 548px;
 
             & > :last-child {
                 margin-bottom: 0;
             }
+
+            width: calc(100% / 3 - 2 / 3 * 32px);
 
             @media (max-width: 992px) {
                 width: 100%;
